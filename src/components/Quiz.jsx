@@ -154,7 +154,7 @@ const Quiz = () => {
         <div className="w-full max-w-3xl p-4 bg-gray-800 border border-gray-600 rounded-lg">
           <div className="flex justify-between">
             <p className="m-0 text-green-400 flex items-center gap-x-1">
-              <FontAwesomeIcon icon={faGamepad} />
+              <FontAwesomeIcon className="text-white" icon={faGamepad} />
               Category
             </p>
             <h5 className="md:w-24 text-right">
