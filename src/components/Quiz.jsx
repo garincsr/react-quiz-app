@@ -15,7 +15,7 @@ const Quiz = () => {
     JSON.parse(localStorage.getItem("selectedAnswers")) || {}
   );
   const [currentAnswer, setCurrentAnswer] = useState("");
-  const [timeLeft, setTimeLeft] = useState(30); // 4 minutes in seconds
+  const [timeLeft, setTimeLeft] = useState(30); // 30 seconds
 
   useEffect(() => {
     if (!user) {
